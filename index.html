@@ -3,285 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vjekoslav Drvar - ML Engineer</title>
+    <meta name="description" content="Vjekoslav Drvar builds and delivers enterprise AI solutions, from commercial discovery and solution design to production engineering.">
+    <meta name="theme-color" content="#172033">
+    <title>Vjekoslav Drvar | AI Solutions, Technical Sales &amp; Engineering</title>
     <link rel="icon" href="VD.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
-            background-color: #f2f3f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #1f2a44;
-            color: #e1e4eb;
-            text-align: center;
-            padding: 70px;
-            border-bottom: 4px solid #b0b5bd;
-            position: relative;
-        }
-
-        header:before, header:after {
-            content: '';
-            position: absolute;
-            top: 0;
-            width: 60px;
-            height: 60px;
-            background-color: #b0b5bd;
-        }
-
-        header:before {
-            left: 0;
-            clip-path: polygon(0 0, 0% 100%, 100% 0);
-        }
-
-        header:after {
-            right: 0;
-            clip-path: polygon(100% 0, 100% 100%, 0 0);
-        }
-
-        h1 {
-            font-size: 3.5em;
-            margin: 0;
-            letter-spacing: 0.08em;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-top: 15px;
-            font-weight: 400;
-            color: #b0b5bd;
-        }
-
-        .contact a {
-            color: #00b3b3;
-            font-weight: bold;
-            margin: 0 15px;
-            font-size: 1.1em;
-            text-decoration: none;
-            padding: 5px 10px;
-            border: 2px solid transparent;
-            border-radius: 8px;
-        }
-
-        .contact a:hover {
-            color: #e1e4eb;
-            border: 2px solid #00b3b3;
-        }
-
-        section {
-            padding: 50px;
-            max-width: 900px;
-            margin: 40px auto;
-            background-color: #fff;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            position: relative;
-            border-left: 5px solid #1f2a44;
-            border-right: 5px solid #1f2a44;
-        }
-
-        section:before, section:after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            width: 40px;
-            height: 40px;
-            background-color: #1f2a44;
-        }
-
-        section:before {
-            left: 0;
-            clip-path: polygon(0 0, 0% 100%, 100% 0);
-        }
-
-        section:after {
-            right: 0;
-            clip-path: polygon(100% 0, 100% 100%, 0 0);
-        }
-
-        section p {
-            color: #555;
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        .project {
-            margin-bottom: 20px;
-            padding: 20px;
-            border-left: 4px solid #00b3b3;
-            background-color: #f2f3f5;
-            border-radius: 10px;
-        }
-
-        .project a {
-            text-decoration: none;
-            color: #1f2a44;
-            font-weight: bold;
-        }
-
-        .project a:hover {
-            text-decoration: underline;
-        }
-
-        .thesis {
-            margin-bottom: 20px;
-            padding: 20px;
-            border-left: 4px solid #00b3b3;
-            background-color: #f2f3f5;
-            border-radius: 10px;
-        }
-
-        .thesis a {
-            text-decoration: none;
-            color: #1f2a44;
-            font-weight: bold;
-        }
-
-        .thesis a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header>
-        <h1>Vjekoslav Drvar</h1>
-        <p>Machine Learning Engineer | Data Scientist | AI Researcher</p>
-        <div class="contact">
-            <a href="mailto:vjeko.drvar@gmail.com">vjeko.drvar@gmail.com</a> | 
-            <a href="https://www.linkedin.com/in/vjekoslav-drvar">LinkedIn</a> | 
-            <a href="https://github.com/vdrvar">GitHub</a>
-        </div>
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Primary navigation">
+            <a class="monogram" href="#top" aria-label="Vjekoslav Drvar, back to top">VD</a>
+            <nav class="nav-links" aria-label="Portfolio sections">
+                <a href="#profile">Profile</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#research">Research</a>
+            </nav>
+            <a class="nav-contact" href="mailto:vjeko.drvar@gmail.com">Let’s talk</a>
+        </nav>
     </header>
 
-<section>
-    <p><strong>The serious part:</strong></p>
-    <p>
-        Trilingual Machine Learning Engineer with hands-on experience building, fine-tuning, and deploying advanced ML solutions across finance, AI, healthcare, and energy sectors. Skilled at leveraging transformers, LLMs/VLMs, NLP, and graph neural networks to solve business-critical problems. Proficient in Python, C++, and more, backed by strong mathematics and data science foundations (top EU universities). Recognized for boosting efficiency, automating workflows, and delivering impactful solutions with measurable value. Experienced in both academic research and production settings, with a track record of successful projects, high-impact pilots, and peer-reviewed publications.
-    </p>
+    <main id="main-content">
+        <section class="hero shell" id="top" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Forward Deployed AI Engineer</p>
+                <h1 id="hero-title">Vjekoslav Drvar</h1>
+                <p class="positioning">AI Solutions <span>·</span> Technical Sales <span>·</span> Engineering</p>
+                <p class="hero-intro">
+                    I take enterprise AI from the first client conversation to a working production system,
+                    combining commercial ownership, solution architecture, and hands-on engineering.
+                </p>
+                <div class="hero-actions" role="group" aria-label="Primary links">
+                    <a class="button button-primary" href="#projects">Explore projects</a>
+                    <a class="button button-secondary" href="https://www.linkedin.com/in/vjekoslav-drvar/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a class="button button-secondary" href="https://github.com/vdrvar" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+            </div>
+        </section>
 
-    <p><strong>The human part:</strong></p>
-    <p>
-        When I’m not coding, you’ll find me reading (anything and everything), learning languages (keeps the brain creative!), running (finished a marathon during my Citigroup internship), or playing tennis (still a work in progress). I keep meaning to spend more time with my piano and guitar—and one of these days, I’d like to apply GenAI tools in a music studio setting, once I get the time (and learn a few more things).
-    </p>
-</section>
+        <section class="section section-tinted" id="profile" aria-labelledby="profile-title">
+            <div class="shell">
+                <div class="section-heading">
+                    <p class="section-index">01 / Profile</p>
+                    <h2 id="profile-title">Commercial instinct, technical depth.</h2>
+                    <p>
+                        My work sits where client problems, business cases, and production systems meet.
+                        I am most useful when the path is still ambiguous and someone needs to shape the opportunity,
+                        earn trust, and then build what was promised.
+                    </p>
+                </div>
 
-<section>
-    <h2>Publications</h2>
+                <div class="capability-grid">
+                    <article class="capability-card">
+                        <p class="card-kicker">Commercial</p>
+                        <h3>Turn ambiguity into a viable AI engagement.</h3>
+                        <p>Market discovery, solution shaping, proposals, pitching, contracting, and client leadership.</p>
+                    </article>
+                    <article class="capability-card">
+                        <p class="card-kicker">Technical</p>
+                        <h3>Stay hands-on from architecture to delivery.</h3>
+                        <p>Generative AI, RAG, machine learning, Python, MLOps, and production software engineering.</p>
+                    </article>
+                    <article class="capability-card">
+                        <p class="card-kicker">International</p>
+                        <h3>Work naturally across teams and markets.</h3>
+                        <p>Croatian native, English C2, German C1, with working proficiency in French and Italian.</p>
+                    </article>
+                </div>
 
-    <a href="https://mipro.hr/MIPRO2025.AIS/ELink.aspx" class="project-link">
-    <div class="project">
-        <p><strong>xAAD in Practice: Explainable Anomaly Detection in Cybersecurity</strong></p>
-        <p>This paper showcases the real-world application of the xAAD framework in live SOC environments. It demonstrates how feedback-driven explainability enhances anomaly detection, reduces false positives, and improves decision-making for security analysts. Evaluated on the RoEduNet-SIMARGL2021 dataset using E-XAI metrics. Presented at <strong>MIPRO 2025</strong>.</p>
-        <img src="img/publication2.png" alt="xAAD in Practice: Explainable Anomaly Detection in Cybersecurity" class="project-image">
-    </div>
-</a>
+                <div class="human-note">
+                    <p class="card-kicker">Outside the work</p>
+                    <p>
+                        I read widely, learn languages, run long distances, and keep trying to improve at tennis.
+                        Piano and guitar are slower projects, but still active ones.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <a href="https://ieeexplore.ieee.org/document/10772236" class="project-link">
-        <div class="project">
-            <p><strong>xAAD - Post-Feedback Explainability for Active Anomaly Discovery</strong></p>
-            <p>This paper introduces a novel approach that enhances the interpretability and accuracy of anomaly detection systems by integrating <strong>Active Anomaly Discovery (AAD)</strong> with the Isolation Forest algorithm and the <strong>Assist-Based Weighting Scheme (AWS)</strong> explainability metric. Published in <strong>IEEE Access</strong>, December 2, 2024.</p>
-            <img src="img/publication1.png" alt="xAAD - Post-Feedback Explainability for Active Anomaly Discovery" class="project-image">
+        <section class="section section-ink" id="publications" aria-labelledby="publications-title">
+            <div class="shell">
+                <div class="section-heading">
+                    <p class="section-index">02 / Publications</p>
+                    <h2 id="publications-title">Research that improved the model, not just the explanation.</h2>
+                    <p>
+                        xAAD connects analyst feedback with anomaly explanations, using each to make the other more useful.
+                    </p>
+                </div>
+
+                <div class="publication-list">
+                    <a class="publication-card" href="https://ieeexplore.ieee.org/document/10772236" target="_blank" rel="noreferrer">
+                        <div class="publication-image">
+                            <img src="img/publication1.png" alt="xAAD method diagram from the IEEE Access publication" loading="lazy">
+                        </div>
+                        <div class="publication-copy">
+                            <p class="card-kicker">IEEE Access · 2024</p>
+                            <h3>xAAD: Post-Feedback Explainability for Active Anomaly Discovery</h3>
+                            <p>
+                                Introduced a feedback-aware explainability method for active anomaly discovery.
+                                xAAD uses analyst input to refine both feature-level explanations and subsequent anomaly
+                                ranking, improving accuracy by 47% across seven benchmarks.
+                            </p>
+                            <span class="text-link">Read the paper <span aria-hidden="true">↗</span></span>
+                        </div>
+                    </a>
+
+                    <a class="publication-card" href="https://mipro.hr/MIPRO2025.AIS/ELink.aspx" target="_blank" rel="noreferrer">
+                        <div class="publication-image">
+                            <img src="img/publication2.png" alt="Cybersecurity anomaly analysis shown in the MIPRO 2025 paper" loading="lazy">
+                        </div>
+                        <div class="publication-copy">
+                            <p class="card-kicker">MIPRO Conference · 2025</p>
+                            <h3>xAAD in Practice: Explainable Anomaly Detection in Cybersecurity</h3>
+                            <p>
+                                Extended xAAD into a security operations setting and evaluated how feedback-driven
+                                explanations support analysts working with noisy network data. The study focuses on
+                                practical ranking quality, false-positive reduction, and analyst decision support.
+                            </p>
+                            <span class="text-link">View the publication <span aria-hidden="true">↗</span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section shell" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <p class="section-index">03 / Engineering projects</p>
+                <h2 id="projects-title">Models made tangible.</h2>
+                <p>
+                    End-to-end builds across computer vision, graph learning, NLP, recommendation, and scientific computing.
+                    Every card opens the source repository.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <a class="project-card" href="https://github.com/vdrvar/bitcoin_fraud_detection" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project5.png" alt="Bitcoin transaction graph and fraud detection results" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">Graph ML · Fintech</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Bitcoin Fraud Detection with GCNs</h3>
+                        <p>
+                            Modeled Elliptic Bitcoin transactions as a graph and trained a two-layer GCN to flag illicit
+                            activity. Wrote the data pipeline in C++, then handled graph construction, training, and
+                            diagnostics with PyTorch Geometric and Plotly.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>C++</li>
+                            <li>PyTorch Geometric</li>
+                            <li>NetworkX</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/euro2024_nlp_predictor" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project6.png" alt="EURO 2024 NLP predictor dashboard" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">NLP · Data product</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Forecasting EURO 2024 from Football News</h3>
+                        <p>
+                            Built an automated pipeline that collected coverage from five European football publications,
+                            mapped articles to national teams, scored sentiment with Transformers, and turned the signals
+                            into tournament probabilities in a Streamlit dashboard.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Transformers</li>
+                            <li>Beautiful Soup</li>
+                            <li>Streamlit</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/medical_image_search" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project7.png" alt="Lung X-ray similarity search interface" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">Computer Vision · Healthcare</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Lung X-ray Similarity Search</h3>
+                        <p>
+                            Built a similarity-first classifier for lung X-rays. ResNet50 converts each scan into an
+                            embedding, Annoy retrieves nearby cases, and a Streamlit interface lets users tune the
+                            neighborhood size and inspect evidence across four diagnostic classes.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>ResNet50</li>
+                            <li>Annoy</li>
+                            <li>Streamlit</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/spotify_recommender_system" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project4.png" alt="Spotify recommendation application interface" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">Recommendation · MLOps</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Full-stack Music Recommender</h3>
+                        <p>
+                            Designed a recommender where favorites and interaction history shape rankings through cosine
+                            and RBF similarity. Flask serves the product, Redis caches state and recommendations,
+                            Prometheus monitors it, and Docker Compose packages the stack.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Flask</li>
+                            <li>Redis</li>
+                            <li>Prometheus</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/comp_vision_for_soda_bottles" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project3.png" alt="Soda bottle recognition web interface" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">Computer Vision · API</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Soda Bottle Recognition</h3>
+                        <p>
+                            Compared convolutional architectures and fine-tuned Xception on the Cola Bottle Identification
+                            Dataset, reaching 94% accuracy. Wrapped the chosen model in a FastAPI upload-and-predict
+                            interface for direct testing.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Xception</li>
+                            <li>TensorFlow</li>
+                            <li>FastAPI</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/java_ml_text_processor" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project2.png" alt="Java natural language processing desktop interface" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">NLP · Desktop</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Interactive NLP Workbench in Java</h3>
+                        <p>
+                            Turned Apache OpenNLP into an approachable JavaFX desktop tool for tokenization, sentence
+                            detection, part-of-speech tagging, and named-entity recognition, with exportable results and
+                            cross-platform launch scripts.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Java</li>
+                            <li>JavaFX</li>
+                            <li>Apache OpenNLP</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card" href="https://github.com/vdrvar/julia_image_autoencoder" target="_blank" rel="noreferrer">
+                    <div class="project-image">
+                        <img src="img/project1.png" alt="Original and reconstructed images from a Julia autoencoder" loading="lazy">
+                    </div>
+                    <div class="project-copy">
+                        <div class="card-topline">
+                            <p class="card-kicker">Representation Learning · Julia</p>
+                            <span class="card-arrow" aria-hidden="true">↗</span>
+                        </div>
+                        <h3>Image Autoencoder in Flux.jl</h3>
+                        <p>
+                            Implemented an image autoencoder in Julia that learns compact latent representations,
+                            reconstructs images, and processes entire folders in batches. The repository pairs the
+                            training code with side-by-side reconstruction examples.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Julia</li>
+                            <li>Flux.jl</li>
+                            <li>Autoencoders</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section section-tinted" id="research" aria-labelledby="research-title">
+            <div class="shell">
+                <div class="section-heading">
+                    <p class="section-index">04 / Academic research</p>
+                    <h2 id="research-title">Mathematics translated into working systems.</h2>
+                    <p>
+                        Two theses at TUM and LMU, spanning neural differential equations, randomized representations,
+                        and stochastic epidemic simulation.
+                    </p>
+                </div>
+
+                <div class="research-list">
+                    <a class="research-card" href="https://github.com/vdrvar/signature_randomization_differential-equations" target="_blank" rel="noreferrer">
+                        <div class="research-image">
+                            <img src="img/msc_thesis_photo.png" alt="Randomized signature reconstruction from the master's thesis" loading="lazy">
+                        </div>
+                        <div class="research-copy">
+                            <p class="card-kicker">M.Sc. Thesis · TU Munich</p>
+                            <h3>Randomized Signatures for Time-series Learning</h3>
+                            <p>
+                                Improved and implemented a method for learning rough paths through reservoir computing,
+                                controlled differential equations, and randomized dimensionality reduction. The work
+                                preserves the expressive structure of path signatures while reducing their computational cost.
+                            </p>
+                            <span class="text-link">Explore the thesis and code <span aria-hidden="true">↗</span></span>
+                        </div>
+                    </a>
+
+                    <a class="research-card" href="https://github.com/vdrvar/seir_spatial_outbreak_simulation" target="_blank" rel="noreferrer">
+                        <div class="research-image">
+                            <img src="img/bsc_thesis_photo.png" alt="Spatial SEIR outbreak simulation from the bachelor's thesis" loading="lazy">
+                        </div>
+                        <div class="research-copy">
+                            <p class="card-kicker">B.Sc. Thesis · LMU Munich</p>
+                            <h3>Stochastic Spatial SEIR Simulation</h3>
+                            <p>
+                                Designed a C++ model that extends classical compartmental epidemiology with spatial
+                                relationships and stochastic transmission. Simulated controlled, high-risk, and unchecked
+                                outbreaks to study how intervention assumptions change epidemic dynamics.
+                            </p>
+                            <span class="text-link">Explore the thesis and code <span aria-hidden="true">↗</span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell">
+            <p>© <span id="year">2026</span> Vjekoslav Drvar</p>
+            <p>AI Solutions · Technical Sales · Engineering</p>
         </div>
-    </a>
-    
-    
-
-</section>
-
-
-<section>
-    <h2>Projects</h2>
-
-    <a href="https://github.com/vdrvar/medical_image_search" class="project-link">
-        <div class="project">
-            <p><strong>Medical Image Classification for Lung X-rays</strong></p>
-            <p>This web app classifies lung X-ray images into categories such as COVID-19, Lung Opacity, Normal, and Viral Pneumonia. It uses a pre-trained <strong>ResNet50</strong> model for feature extraction and Annoy for <strong>approximate nearest neighbors (ANN)</strong> search, enabling fast similarity-based classification. Built with a Streamlit interface for interactive image uploads and adjustable neighbor settings.</p>
-            <img src="img/project7.png" alt="Medical Image Classification for Lung X-rays" class="project-image">
-        </div>
-    </a>
-
-    <a href="https://github.com/vdrvar/euro2024_nlp_predictor" class="project-link">
-        <div class="project">
-            <p><strong>Forecasting EURO 2024 with News & NLP</strong></p>
-            <p>This project leverages advanced Natural Language Processing (NLP) techniques to predict outcomes for UEFA Euro 2024 by analyzing football news from prominent sources like L'Équipe, FourFourTwo, Kicker, La Gazzetta dello Sport, and Marca. The project includes web scraping, sentiment analysis, and nation classification. It also features an interactive <strong>Streamlit dashboard</strong> that visualizes sentiment and prediction data, providing insights into team performances and public sentiment.</p>
-            <img src="img/project6.png" alt="Forecasting EURO 2024 with News & NLP" class="project-image">
-        </div>
-    </a>
-
-    <a href="https://github.com/vdrvar/bitcoin_fraud_detection" class="project-link">
-        <div class="project">
-            <p><strong>Bitcoin Fraud Detection with Graph Neural Networks</strong></p>
-            <p>This project focuses on detecting fraudulent Bitcoin transactions using <strong>Graph Convolutional Networks (GCNs)</strong> and the Elliptic dataset. A hybrid approach combines C++ for efficient data preprocessing and Python (PyTorch Geometric) for implementing and training the GCN model. Achieved a 96% accuracy rate in detecting fraud using this method.</p>
-            <img src="img/project5.png" alt="Bitcoin Fraud Detection" class="project-image">
-        </div>
-    </a>
-    
-
-    <a href="https://github.com/vdrvar/spotify_recommender_system" class="project-link">
-        <div class="project">
-            <p><strong>Spotify Recommender App with Kaggle Data</strong></p>
-            <p>A Flask-based web application that provides personalized song recommendations using <strong>cosine similarity</strong> and <strong>RBF similarity</strong>. It integrates with Redis for caching and Docker for deployment, allowing users to explore songs, receive tailored recommendations, and add songs to a favorites list.</p>
-            <img src="img/project4.png" alt="Spotify Recommender App" class="project-image">
-        </div>
-    </a>
-    
-
-    <a href="https://github.com/vdrvar/comp_vision_for_soda_bottles" class="project-link">
-        <div class="project">
-            <p><strong>Computer Vision for Soda Bottles</strong></p>
-            <p>A deep learning project applying <strong>transfer learning</strong> to recognize soda bottle brands using a fine-tuned Xception model. The system achieves a 94% accuracy rate, leveraging the Kaggle Cola Bottle Identification Dataset. It also includes a FastAPI interface for image uploads and predictions, allowing users to interact with the model via a web interface.</p>
-            <img src="img/project3.png" alt="Computer Vision for Soda Bottles" class="project-image">
-        </div>
-    </a>
-    
-
-    <a href="https://github.com/vdrvar/java_ml_text_processor" class="project-link">
-        <div class="project">
-            <p><strong>Java ML Text Processor</strong></p>
-            <p>A Java-based NLP application that uses <strong>Apache OpenNLP</strong> and JavaFX to provide a GUI for text processing. The app performs tokenization, sentence detection, part-of-speech tagging, and named entity recognition (NER), with the ability to export processed text. It’s designed as an educational tool for interacting with basic NLP techniques.</p>
-            <img src="img/project2.png" alt="Java ML Text Processor" class="project-image">
-        </div>
-    </a>
-
-    <a href="https://github.com/vdrvar/julia_image_autoencoder" class="project-link">
-        <div class="project">
-            <p><strong>Julia Image Autoencoder</strong></p>
-            <p>This project uses <strong>Flux.jl</strong> in Julia to build an autoencoder for compressing and decompressing images. The system processes batches of images, compresses them into a lower-dimensional space, and reconstructs them with minimal loss. The project focuses on learning compact image representations, with examples of original and reconstructed images included.</p>
-            <img src="img/project1.png" alt="Julia Image Autoencoder" class="project-image">
-        </div>
-    </a>
-    
-
-</section>
-
-<section>
-    <h2>Theses</h2>
-
-    <a href="https://github.com/vdrvar/signature-randomization-differential-equations" class="thesis-link">
-        <div class="thesis">
-            <p><strong>Master's Thesis</strong></p>
-            <p>Reimplemented a machine learning time-series forecasting technique with randomized dimensionality reduction at <strong>Technical University of Munich (TU Munich)</strong>. Investigated <strong>reservoir computing</strong> with the signature of a path, applied the Johnson-Lindenstrauss lemma for <strong>dimensionality reduction</strong>, and <strong>expanded a proof</strong> linking controlled differential equations and signature dynamics to enhance the efficiency of high-dimensional time-series data analysis.</p>
-            <img src="img/msc_thesis_photo.png" alt="Master's Thesis Photo" class="thesis-photo">
-        </div>
-    </a>
-    
-    
-    <a href="https://github.com/vdrvar/seir-spatial-outbreak-simulation" class="thesis-link">
-        <div class="thesis">
-            <p><strong>Bachelor's Thesis</strong></p>
-            <p>Developed a C++ model using stochastic methods to simulate the spatial spread of diseases, inspired by the COVID-19 outbreak, at <strong>Ludwig Maximilian University of Munich (LMU Munich)</strong>. The work explores spatial SEIR models and the impact of different intervention strategies.</p>
-            <img src="img/bsc_thesis_photo.png" alt="Bachelor's Thesis Photo" class="thesis-photo">
-        </div>
-    </a>
-    
-
-</section>
-
+    </footer>
 </body>
 </html>
